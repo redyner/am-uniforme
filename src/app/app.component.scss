@@ -28,12 +28,34 @@ body {
     color: rgba(255, 217, 0, 0.500);
     padding: 1vh;
     border-radius: 1vh;
-    margin-top: 1vh;
+    margin-top: 5vh;
   }
 
   .carousel-item img {
     border-radius: 1vh;
   }
   
+  .logo
+  {
+    height: 10vh;
+    width: 10vh;
+  }
+
+/* Defina uma altura fixa para o carrossel */
+.carousel {
+  height: 55vh; /* Defina a altura desejada */
+  overflow: hidden; /* Oculta qualquer conteúdo que exceda o tamanho do carrossel */
+  border-radius: 1vh;
+}
+
+/* Ajuste a largura das imagens para preencher o carrossel horizontalmente */
+.carousel-item img {
+  width: 100%;
+  height: auto; /* Use a altura automática para manter a proporção original */
+  object-fit: cover; /* Corta a imagem para preencher completamente o espaço do carrossel */
+  border-radius: 1vh;
+}
+
+
   
   
