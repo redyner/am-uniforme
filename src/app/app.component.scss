@@ -25,20 +25,14 @@ body {
   
   footer {
     background-color: black;
-    color: rgba(255, 217, 0, 0.500);
+    color: #9C9033;
     padding: 1vh;
     border-radius: 1vh;
-    margin-top: 5vh;
+    margin-top: 1vh;
   }
 
   .carousel-item img {
     border-radius: 1vh;
-  }
-  
-  .logo
-  {
-    height: 10vh;
-    width: 10vh;
   }
 
 /* Defina uma altura fixa para o carrossel */
@@ -56,6 +50,21 @@ body {
   border-radius: 1vh;
 }
 
+.cabecalho{
+  background-color: black;
+  margin-bottom: 1vh;
+}
+
+.logo
+{
+  height: 10vh;
+  width: 10vh;
+}
+
+.whatsapp{
+  height: 5vh;
+  width: 5vh;
+}
 
   
   
