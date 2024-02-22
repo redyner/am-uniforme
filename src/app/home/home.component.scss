@@ -1,0 +1,35 @@
+
+
+  .container {
+    margin: auto;
+    padding: 1vh;
+    border-radius: 1vh;
+    overflow: hidden;
+  }
+  
+
+
+/* Defina uma altura fixa para o carrossel */
+.carousel {
+  height: 55vh; /* Defina a altura desejada */
+  overflow: hidden; /* Oculta qualquer conteúdo que exceda o tamanho do carrossel */
+  border-radius: 1vh;
+}
+
+/* Ajuste a largura das imagens para preencher o carrossel horizontalmente */
+.carousel-item img {
+  width: 100%;
+  height: auto; /* Use a altura automática para manter a proporção original */
+  object-fit: cover; /* Corta a imagem para preencher completamente o espaço do carrossel */
+  border-radius: 1vh;
+}
+
+
+
+.whatsapp{
+  height: 5vh;
+  width: 5vh;
+}
+
+
+  
