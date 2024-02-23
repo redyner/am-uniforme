@@ -1,6 +1,7 @@
-.cabecalho{
+.container-cabecalho{
     background-color: rgb(40, 40, 40);
     margin-bottom: 1vh;
+    border-radius: 1vh;
   }
   
   .logo
@@ -11,26 +12,25 @@
   }
 
   .navbar{
-    margin-top: 1vh; /* Espaçamento entre o cabeçalho e a navbar */
+    margin-top: 1vh;
   }
   
   .navbar .navbar-nav .nav-link {
-    color: #9C9033; /* Define a cor da fonte dos links da navbar */
+    color: #9C9033;
   }
   
   .navbar .navbar-nav .nav-link:hover {
-    color: #ffffff; /* Define a cor da fonte dos links da navbar quando o mouse passa por cima */
+    color: #ffffff;
   }
   
   .navbar-brand,
   .navbar-toggler-icon {
-    //filter: invert(100%);
-    color: #9C9033; /* Define a cor da fonte dos links da navbar */
+    color: #9C9033;
   
   }
   
   nav{
     border-radius: 1vh;
-    color: #9C9033; /* Define a cor da fonte dos links da navbar */
+    color: #9C9033;
   
   }
