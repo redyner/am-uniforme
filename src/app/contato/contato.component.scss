@@ -19,14 +19,15 @@
     height: 55vh;
   }
 
-  .container {
-    display: flex;
-    flex-direction: column;
-}
-
 .container-contato {
     margin: auto;
     padding: 1vh;
     border-radius: 1vh;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container{
+    padding: 1vh;
   }
